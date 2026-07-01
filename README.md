@@ -1,4 +1,4 @@
-# 🌐 Sohika Sharma | Personal Portfolio
+# Sohika Sharma | Personal Portfolio
 
 Welcome to my personal portfolio!
 
