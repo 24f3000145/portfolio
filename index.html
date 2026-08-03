@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sohika Sharma | Portfolio </title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +18,7 @@
 <body>
 
     <nav class="navbar">
-        <h2 class="logo">Sohika</h2>
+        <h2 class="logo">SS</h2>
 
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -25,7 +29,7 @@
     </nav>
 
     <header class="hero">
-
+        <img src="images/profile.png" alt="Sohika Sharma" class="profile-image">
         <p class="greeting">Hello👋, I'm </p>
 
         <h1>Sohika Sharma</h1>
@@ -115,50 +119,71 @@
 
     <section id="projects" class="projects">
 
-        <h2>Projects</h2>
+        <h2>Featured Projects</h2>
 
-        <div class="projects-grid">
-
-            <div class="project-card">
-
-                <h3>Lumi</h3>
-
-                <p>
-                    An AI-powered project built to explore Generative AI and create practical solutions.
-                </p>
-
-                <a href="https://github.com/24f3000145/lumi-ai-companion">GitHub →</a>
-
-            </div>
-
-            <div class="project-card">
+        <div class="project-card">
+                <span class="project-status completed">✔ Completed</span>
 
                 <h3>Trekking Management System</h3>
 
                 <p>
-                    A full-stack web application for managing trekking registrations, users, and admins.
+                    A full-stack web application developed as a university project for
+                    managing trekking registrations, user authentication, and admin
+                    operations.
                 </p>
 
-                <a href="https://github.com/24f3000145/trekking-management-system">GitHub →</a>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>SQLite</span>
+                </div>
 
+                <button class="disabled-btn">
+                    🔒 Private Repository
+                </button>
+
+                <small>
+                    Developed as part of a university project.
+                </small>
             </div>
 
+        <div class="project-card">
+            <span class="project-status">🚧 In Progress</span>
+
+            <h3>Lumi</h3>
+
+            <p>
+                An AI-powered conversational assistant built to explore Generative AI,
+                prompt engineering, and modern web development.
+                Currently under active development.
+            </p>
+
+            <div class="tech-stack">
+                <span>React</span>
+                <span>FastAPI</span>
+                <span>Gemini API</span>
+                <span>Tailwind CSS</span>
+            </div>
+
+            <button class="disabled-btn">Currently Building</button>
         </div>
 
     </section>
 
     <section id="contact" class="contact">
-
-        <h2>Let's Connect</h2>
+        <h2>Let's Build Something Together</h2>
 
         <p>
-            I'm always open to learning, collaborating, and discussing new ideas.
+            I'm currently looking for internship opportunities, exciting projects,
+            and collaborations. If you'd like to work together or just have a chat,
+            I'd love to hear from you.
         </p>
 
-        <a href="mailto:sohikasharma@gmail.com" class="btn primary-btn">
-            Say Hello 👋
+        <a href="mailto:yourmail@gmail.com" class="btn contact-btn">
+            📧 Email Me
         </a>
-
     </section>
 
     <footer class="footer">
